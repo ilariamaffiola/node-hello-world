@@ -11,6 +11,9 @@ Proviamo a modificare la nostra app Node, in modo da passare dal terminale una f
 Numero di push indicativo: 5
 Buon lavoro!*/
 console.log(process.argv);
-const sentence = process.argv[2] ? process.argv[2] : "qualcuno";
-const mySentence = process.argv[3] ? process.argv[3] : " ";
-console.log(`Hello ${sentence} ${mySentence}`);
+// const nome = process.argv[2] ? process.argv[2] : "qualcuno";
+const nome = process.argv[2] || "qualcuno";
+
+
+const cognome = process.argv[3] || " ";
+console.log(`Hello ${nome} ${cognome}`);
