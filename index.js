@@ -10,4 +10,7 @@ Bonus
 Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”. Forse potrà servirvi qualcosa vista ieri! :occhiolino:
 Numero di push indicativo: 5
 Buon lavoro!*/
-console.log("Hello Boolean");
+console.log(process.argv);
+const sentence = process.argv[2] ? process.argv[2] : "qualcuno";
+const mySentence = process.argv[3] ? process.argv[3] : " ";
+console.log(`Hello ${sentence} ${mySentence}`);
