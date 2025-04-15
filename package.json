@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "watch": "node --watch index.js"
-
+    "watch": "node --watch index.js",
+    "name": "node index.js Ilaria maffiola"
 
   },
   "repository": {
