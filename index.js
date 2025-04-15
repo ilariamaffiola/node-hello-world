@@ -10,4 +10,4 @@ Bonus
 Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”. Forse potrà servirvi qualcosa vista ieri! :occhiolino:
 Numero di push indicativo: 5
 Buon lavoro!*/
-console.log("Hello World");
+console.log("Hello Boolean");
